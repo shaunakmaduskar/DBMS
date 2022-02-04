@@ -1,0 +1,18 @@
+Conceptual model : 
+  Some attributes that are common to many entities have multiple lines .(Web Tool Constraint)
+  Composite attributes are in green
+  Primary keys are in yellow
+  Degrees of entities :
+  Classes - 11
+  Enrollment - 6
+  Staff - 7
+  Students - 10
+  Pool - 3
+  Levels - 2
+  
+  
+  Weak entity found - Enrollment 
+  Changes made - added ID attribute as new primary key
+  
+  Redundancy detected in Students and Staff as both entities have repeated attributes 
+  Proposed solution - Use a generalised entity to cover both students and staff with a discriminant atrribute
