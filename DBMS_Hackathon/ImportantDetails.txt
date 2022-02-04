@@ -13,6 +13,8 @@ Conceptual model :
   
   Weak entity found - Enrollment 
   Changes made - added ID attribute as new primary key
+  Highlighted in green
   
   Redundancy detected in Students and Staff as both entities have repeated attributes 
   Proposed solution - Use a generalised entity to cover both students and staff with a discriminant atrribute
+  Highlighted in yellow
